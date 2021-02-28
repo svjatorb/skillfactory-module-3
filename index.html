@@ -126,9 +126,14 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed d</p>
 			</div>
 			<div class="subform-textarea">
-				<div class="subform-textarea-input"> Email adress...
+				<!--<div class="subform-textarea-input"> Email adress...
 				</div>
-				<a href="">Subscribe</a>
+				<a href="">Subscribe</a>-->
+				<form class="subscribe-form" action="" method="GET">
+				<input class="subscribe-input" type="email" name="email" placeholder="Email Address..." required>
+				<button class="subscribe-button" type="submit">Subscribe</button>
+			</form>
+				
 			</div>
 		</div>
 		<div class="contacts">
@@ -142,13 +147,19 @@
 				</div>
 				<div class="contacts-form-wrapper">
 					<div class="contacts-form-textarea">
-						<div class="contacts-form-textarea-name">Name
+						<!--<div class="contacts-form-textarea-name">Name
 						</div>
 						<div class="contacts-form-textarea-email">Your mail
 						</div>
 						<div class="contacts-form-textarea-message">Type your message
 						</div>
-						<a href="">Send message</a>
+						<a href="">Send message</a>-->
+						<form class="feedback-form" action="" method="GET">
+						<input class="feedback-input feedback-name" type="text" name="name" placeholder="Name" required>
+						<input class="feedback-input feedback-mail" type="email" name="email" placeholder="Your Mail" required>
+						<textarea class="feedback-input feedback-message" name="message" cols="30" rows="5" placeholder="Type your message" required></textarea>
+						<button class="feedback-button" type="submit">Send message</button>
+					</form>
 					</div>
 				</div>
 			</div>
