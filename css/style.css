@@ -1,3 +1,142 @@
+@media screen and (max-width: 1286px) {
+	.intro {
+		flex-wrap: nowrap;
+	}
+	.intro-txt {
+		width: 50%;
+		box-sizing: border-box;
+		margin-right: 0;
+		padding-right: 15px;
+	}
+	.intro-heading {
+		font-size: 5vw;
+	}
+	.intro a {
+		width: 50%;
+	}
+	.intro img {
+		width: 100%;
+		height: auto;
+	}
+	.features-items {
+		justify-content: flex-start;
+	}
+	.features-items-img {
+		max-width: 100%;
+		margin-right: 1vw;
+	}
+	.contacts-form {
+		margin: 0 auto;
+		margin-bottom: 30px;
+		padding: 0 1vw;
+		grid-column: 1 / 6;
+		grid-row: 1 / 2;
+	}
+	.contacts-form-wrapper {
+		margin-right: 0;
+	}
+	.contacts {
+		flex-wrap: wrap;
+		padding-left: initial;
+		padding-right: initial;
+		padding-bottom: 0;
+		grid-template-columns: 100%;
+	}
+	.contacts-left-inv {
+		flex: 0 1 auto;
+	}
+	.contacts-adress {
+		width: 100%;
+		max-width: 100%;
+		grid-column: 1 / 6;
+		grid-row: 2 / 3;
+	}
+	
+	.contacts::after {
+		content: initial;
+	}
+}
+
+@media screen and (max-width: 907px) {
+	.services-txt,
+	.services-items {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.nav-link,
+	.active-link {
+		width: 100%;
+		text-align: center;
+	}
+	.services {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 855px) {
+	.members {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.teamlead {
+		margin-bottom: 18px;
+		margin-right: 0;
+	}
+} 
+
+@media screen and (max-width: 800px) {
+	.services-items {
+		width: 100%;
+		max-width: 100%;
+	}
+	.contacts-adress {
+		padding: 1vw;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.contacts-form-textarea-name,
+	.contacts-form-textarea-email,
+	.contacts-form-textarea-message,
+	.contacts-form-textarea a {
+		width: 100%;
+	}
+	.contacts-form-textarea-name {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.header {
+		padding-left: 20px;
+	}
+	.intro {
+		flex-wrap: wrap;
+	}
+	.intro-txt {
+		width: 100%;
+	}
+	.intro a {
+		width: 100%;
+	}
+	.intro img {
+		width: 100%;
+		height: auto;
+	}
+	.intro-heading {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.subform-textarea {
+		flex-wrap: wrap;
+	}
+}
+
 @font-face {
 	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 	font-family: 'Open Sans';
